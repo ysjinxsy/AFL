@@ -36,13 +36,7 @@ app.listen(port, () => {
 });
 
 
-client.user.setPresence({ 
-    activities: [{ 
-        name: 'AFL', 
-        type: ActivityType.Playing, 
-    }], 
-    status: 'online' 
-});
+const statusMessages = ["𝐖𝐚𝐭𝐜𝐡𝐢𝐧𝐠 𝐀𝐅𝐋."];
 
 let currentIndex = 0;
 const channelId = '';
