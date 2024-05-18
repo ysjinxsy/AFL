@@ -36,8 +36,13 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Watching XRS New ERA"];
-
+client.user.setPresence({ 
+    activities: [{ 
+        name: 'AFL', 
+        type: ActivityType.Playing, 
+    }], 
+    status: 'online' 
+});
 
 let currentIndex = 0;
 const channelId = '';
