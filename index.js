@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["𝐖𝐚𝐭𝐜𝐡𝐢𝐧𝐠 𝐀𝐅𝐋."];
+const statusMessages = ["Playing 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗠𝗣𝗟 𝗟𝗲𝗮𝗴𝘂𝗲 ⚽ "];
 
 let currentIndex = 0;
 const channelId = '';
